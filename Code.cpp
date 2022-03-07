@@ -7,7 +7,11 @@ int main() {
 
     const int wind_speed_for_coat=25;
     const double temperature_for_coat=45;
-    cout<<boolalpha;
+    cout<<boolalpha;  //for true and false 
+
+
+    /* for 1 and 0
+    cout<<noboolalpha; */
 
     cout<<"Enter the current temperature in (F): ";
     cin>>temperature;
